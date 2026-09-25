@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Descrição da página">
+    <meta name="author" content="Gustavo Serra">
+    <title>Inteligencia Artificial: O gigante dessa Era</title>
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <h1>IA generativa</h1>
+
+        <!-- Menu de navegação -->
+        <nav>
+            <a href="Pag1.html">Inicio</a>
+            <a href="Pag2.html">Deep learning</a>
+            <a href="Pag3.html">IA generativa</a>
+        </nav>
+    </header>
+    <!-- Conteúdo principal -->
+    <main>
+        <!-- Seção principal -->
+        <section>
+            <h2>IA generativa</h2>
+            <p>IA generativa, às vezes chamada de "IA gen", refere-se a modelos de deep learning que podem criar conteúdo original complexo, como texto longo, imagens de alta qualidade, vídeo ou áudio realista e muito mais, em resposta a um prompt ou solicitação do usuário.</p>
+            <p>Em um nível elevado, os modelos generativos codificam uma representação simplificada dos seus dados de treinamento e, em seguida, extraem desta representação para criar um novo trabalho semelhante, mas não idêntico, aos dados originais.</p>
+            <p>Os modelos generativos têm sido utilizados há anos em estatísticas para analisar dados numéricos. Mas, durante a última década, eles evoluíram para analisar e gerar tipos de dados mais complexos. Essa evolução coincidiu com o surgimento de três tipos sofisticados de modelos de deep learning:</p>
+            <ul>
+                <li>Autocodificadores variacionais ou VAEs, que foram lançados em 2013, e permitiram modelos que poderiam gerar múltiplas variações de conteúdo em resposta a um prompt ou instrução.</li>
+                <li>Modelos de difusão, vistos pela primeira vez em 2014, que adicionam "ruído" às imagens até que fiquem irreconhecíveis e, em seguida, removem o ruído para gerar imagens originais em resposta a prompts.</li>
+                <li>Transformadores (também chamados de modelos de transformador), que são treinados em dados sequenciados para gerar sequências estendidas de conteúdo (como palavras em frases, formas em uma imagem, quadros de um vídeo ou comandos em código de software). Os transformadores estão no centro da maioria das ferramentas de IA generativa que estão nas manchetes atualmente, incluindo o ChatGPT e GPT-4, Copilot, BERT, Bard e Midjourney.</li>
+            </ul>
+            <figure>
+                <img src="../Img/img 3.png" alt="IMG 3" height="400" width="400">
+                <figcaption>IA GENERATIVA</figcaption>
+            </figure>
+        </section>
+
+        <!-- Artigo com conteúdo específico -->
+        <article>
+            <h2>Como funciona a IA generativa</h2>
+            <p>Em geral, a IA gerativa opera em três fases:</p>
+            <ol>
+                <li><b>Treinamento</b>, para criar um modelo de base.</li>
+                <li><b>Ajuste</b>, para adaptar o modelo a uma aplicação específica.</li>
+                <li><b>Geração</b>, avaliação e mais ajuste, para aprimorar a precisão.</li>
+            </ol>
+            <video controls autoplay src="../video/istockphoto-2232460849-640_adpp_is.mp4" width="500" height="400">Vídeo1</video>
+        </article>
+        <!-- Outra seção -->
+        <section>
+            <h2>Treinamento</h2>
+            <p>A IA generativa começa com um "modelo de base"; um modelo de deep learning que serve de base para vários tipos diferentes de aplicações de IA generativa.</p>
+            <p>Os modelos de base mais comuns atualmente são grandes modelos de linguagem (LLMs), criados para aplicações de geração de texto. Mas há também modelos de base para geração de imagens, vídeo, som ou música, e modelos de base multimodais compatíveis com vários tipos de conteúdo.</p>
+            <p>Para criar um modelo de base, os profissionais treinam um algoritmo de deep learning em grandes volumes de dados brutos, não estruturados e não rotulados relevantes, como terabytes ou petabytes de dados de texto, imagens ou vídeos da Internet. O treinamento gera uma rede neural de bilhões de parâmetros (representações codificadas das entidades, padrões e relacionamentos nos dados), que podem gerar conteúdo de forma autônoma em resposta a prompts. Esse é o modelo de base.</p>
+            <p>Esse processo de treinamento é intensivo em computação, demorado e caro. Requer milhares de unidades de processamento gráfico em clusters (GPUs) e semanas de processamento, o que geralmente custa milhões de dólares. Projetos de modelos de base de código aberto, como o Llama-2 da Meta, permitem que os desenvolvedores de IA generativa evitem essa etapa e seus custos.</p>
+        </section>
+        <section>
+            <h2>Ajuste</h2>
+            <p>Em seguida, o modelo deve ser ajustado para uma tarefa específica de geração de conteúdo. Isso pode ser feito de várias maneiras, incluindo:</p>
+            <ul>
+                <li>Ajuste fino, que envolve alimentar o modelo com dados rotulados específicos da aplicação, perguntas ou prompts que a aplicação provavelmente receberá, e as respostas corretas correspondentes no formato desejado.</li>
+                <li>Aprendizado por reforço com feedback humano (RLHF), no qual os usuários humanos avaliam a precisão ou a relevância dos outputs do modelo para que o modelo possa se aprimorar. Isso pode ser tão simples quanto fazer com que as pessoas digitem ou falem as correções para um chatbot ou assistente virtual.</li>
+            </ul>
+        </section>
+            <section>
+    <h2>Formulário de opinião</h2>
+    <form>
+        <label for="nome">Nome:</label>
+        <input 
+            type="text" 
+            id="nome" 
+            name="nome" 
+            placeholder="Digite seu nome"
+            required>
+        <br>
+        <label for="data">Data da visita:</label>
+        <input 
+            type="date" 
+            id="data" 
+            name="data"
+            required>
+        <br>
+        <label for="pagina">Qual página você mais gostou?</label>
+        <input 
+            list="paginas" 
+            id="pagina" 
+            name="pagina"
+            placeholder="Escolha uma página"
+            required>
+        <datalist id="paginas">
+            <option value="Início">
+            <option value="Deep Learning">
+            <option value="Página 3">
+        </datalist>
+        <br>
+        <label for="gostou">O que você mais gostou no site?</label>
+        <input 
+            type="text" 
+            id="gostou" 
+            name="gostou" 
+            placeholder="Digite o que mais gostou"
+            required>
+        <br>
+        <label for="arquivo">Envie uma imagem relacionada à Inteligência Artificial:</label>
+        <input 
+            type="file" 
+            id="arquivo" 
+            name="arquivo">
+        <br>
+        <input type="submit" value="Enviar opinião">
+    </form>
+    </section>
+        <aside>
+            <p>A velocidade da inteligência artificial trará uma transição extremamente rápida e desafiadora para a sociedade - <cite>Bill gates</cite></p>
+            <label for="progresso">Progresso do conteúdo:</label>
+            <progress id="progresso" value="100" max="100"> </progress>
+        </aside>
+        <!--COMENTÁRIO: TIVE UMA GRANDE DIFICULDADE EM FAZER O FORMULÁRIO, NÃO LEMBRAVA ALGUMAS COISAS-->
+        <blockquote>"As tags semânticas servem para dar significado e organizar melhor o conteúdo da página." <cite> Cunha, Israel</cite></blockquote>
+    </main>
+    <br>
+    <br>
+    <audio controls autoplay src="../audio/mickeyscat-moment-of-peace-mickeyscat-554494.mp3">Audio</audio>
+    <br>
+    <br>
+    <footer>
+        Gustavo Serra - Prova Israel 2026
+    <br>
+    <time datetime="2026-09-24">24/09/2026</time>
+    </footer>
+</body>
+</html>
